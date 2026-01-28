@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lista de tarefas</h1>
+      <div class="botao">
+        <button id="adicionar_tarefa">Criar tarefa</button>
+      </div>
+      <div id="display_tarefas">
+        <input type="text" id="nome_tarefa" placeholder="Nome da tarefa">
+        <input type="text" id="descricao_tarefa" placeholder="Descrição da tarefa">
+        <select id="status_tarefa">
+          <option value="Incompleto">Incompleto</option>
+          <option value="Completo">Completo</option>
+        </select>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- //O que praticar: Criação dinâmica de elementos HTML via JavaScript (createElement) e arrays.
+
+Funcionalidade: O usuário digita uma tarefa, ela aparece em uma lista e pode ser marcada como concluída ou excluída.
+
+Desafio Extra: Use o localStorage do navegador para que as tarefas não sumam quando a página for atualizada.   -->

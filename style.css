@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    gap: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display_tarefas {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 1000px;
+    overflow-y: auto;
+    border: solid gray 1px;
+    padding: 10px;
+    gap: 10px;
+}
+
+#adicionar_tarefa {
+    width: 90px;
+    height: 22px;
+    margin-left: 100vh;
+    justify-content: flex-end;
+}
+
+.linha_tarefa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarefa-row p, .tarefa-row button {
+    flex: 1; /* Faz com que cada item ocupe o mesmo espaço na linha */
+    text-align: center;
+}
